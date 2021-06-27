@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-omit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Return a partial object copy excluding specified keys.",
   "license": "Apache-2.0",
   "author": {
