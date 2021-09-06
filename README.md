@@ -139,6 +139,12 @@ var obj2 = omit( obj1, [ 'b', 'c', 'e' ] );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/omit-by`][@stdlib/utils/omit-by]: return a partial object copy excluding properties for which a predicate (function) returns a truthy value.
+
 </section>
 
 <!-- /.related -->
@@ -199,6 +205,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-omit/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/omit-by]: https://github.com/stdlib-js/utils-omit-by
+
+<!-- </related-links> -->
 
 </section>
 
