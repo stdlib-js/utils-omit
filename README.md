@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-omit
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-omit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.omit;
-})();
-</script>
+var omit = require( '@stdlib/utils-omit' );
 ```
 
 #### omit( obj, keys )
@@ -118,13 +116,8 @@ var obj2 = omit( obj1, 'd' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var omit = require( '@stdlib/utils-omit' );
 
 var obj1 = {
     'a': 1,
@@ -136,11 +129,6 @@ var obj1 = {
 
 var obj2 = omit( obj1, [ 'b', 'c', 'e' ] );
 // returns { 'a': 1, 'd': 4 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -234,12 +222,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/utils-omit/tree/deno
 [umd-url]: https://github.com/stdlib-js/utils-omit/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-omit/tree/esm
+[branches-url]: https://github.com/stdlib-js/utils-omit/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-omit/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/omit-by]: https://github.com/stdlib-js/utils-omit-by/tree/umd
+[@stdlib/utils/omit-by]: https://github.com/stdlib-js/utils-omit-by
 
 <!-- </related-links> -->
 
