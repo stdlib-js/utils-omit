@@ -151,7 +151,7 @@ var obj2 = omit( obj1, [ 'b', 'c', 'e' ] );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/omit-by`][@stdlib/utils/omit-by]</span><span class="delimiter">: </span><span class="description">return a partial object copy excluding properties for which a predicate (function) returns a truthy value.</span>
+-   <span class="package-name">[`@stdlib/utils-omit-by`][@stdlib/utils/omit-by]</span><span class="delimiter">: </span><span class="description">return a partial object copy excluding properties for which a predicate (function) returns a truthy value.</span>
 
 </section>
 
