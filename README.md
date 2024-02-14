@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@esm/index.mjs';
+import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.0-esm/index.mjs';
 ```
 
 #### omit( obj, keys )
@@ -117,7 +117,7 @@ var obj2 = omit( obj1, 'd' );
 <body>
 <script type="module">
 
-import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@esm/index.mjs';
+import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.0-esm/index.mjs';
 
 var obj1 = {
     'a': 1,
