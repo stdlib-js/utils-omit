@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-omit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/browser.js' )
+omit = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var omit = require( 'path/to/vendor/umd/utils-omit/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -139,7 +139,7 @@ var obj2 = omit( obj1, 'd' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
