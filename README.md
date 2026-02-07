@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-omit/tags). For example,
+
+```javascript
 import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.3-esm/index.mjs';
 ```
 
@@ -117,7 +122,7 @@ var obj2 = omit( obj1, 'd' );
 <body>
 <script type="module">
 
-import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@v0.2.3-esm/index.mjs';
+import omit from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-omit@esm/index.mjs';
 
 var obj1 = {
     'a': 1,
